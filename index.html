@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>John Christian Prieto</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="left">
+
+                    <img class="bg-logo" src="classroom.jpg">
+                     <img class="dp" src="dp.png">
+                    <p class="uic-text">PRIETO JOHN CHRISTIAN A.</p>
+                    <p class = "bsit">BSIT STUDENT</p>
+                    <img class="img1" src="img1.png">
+                    <p class="askhelp">ASK HELP</p>
+                    <img class = "img2" src="img2.png">
+                    <p class="studentInfo">STUDENT INFO</p>
+                    <img class ="img3" src = "img3.png"></img> </div>
+                    <p class="onlineEnroll">ONLINE ENROLL </p>
+        </div>
+        <div class="header">
+ <img class ="img4" src = "uic-logo.png"></img> </div>
+ <img class ="img5" src = "my-uic-white.png"></img> </div>
+ 
+</div>
+        <div class="box1">
+            <h1 class="fullname"><strong>PRIETO, JOHN CHRISTIAN A.</strong></h1>
+            <p class="stud">Student</p>            <form>
+                <input type="text" class="topic" placeholder="Topic...">
+                <textarea onlick="showButton" id="ans" rows="4" cols="50" name="comment" form="usrform" class="ans" placeholder="Write here.."></textarea>
+            </form>
+            <button class="sub" id="sub"> 
+                    Submit
+                </button>
+        </div>
+    
+    </body>
+     <script>
+            $(document).ready(function(){
+            $("#ans").click(function(){
+                $("#sub").show();
+            });
+            });
+       </script>
+</html>

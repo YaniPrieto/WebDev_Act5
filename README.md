@@ -1,2 +1,2 @@
-# WebDev_Act5
-web dev act 5 to be submitted
+# WebDev_Act05
+School Alumni Networking Website
